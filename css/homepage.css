@@ -1,0 +1,297 @@
+/**Architecture**/
+
+nav {
+    width: 100%;
+    height: 95px;
+    background-color: white;
+}
+
+#slider {
+    width: 100%;
+    height: 670px;
+    background-color: red;
+}
+
+#text_window {
+    width: 400px;
+    height: 310px;
+    background-color: grey;
+    position: absolute;
+    top: 450px;
+    left: 170px;
+}
+
+#bloc2 {
+    width: 100%;
+    height: 850px;
+    background-color: aquamarine;
+}
+
+#bloc3 {
+    width: 100%;
+    height: 341px;
+    background-color: white;
+}
+
+#bloc4 {
+    width: 100%;
+    height: 676px;
+    background-color: red;
+}
+
+footer {
+    height: 350px;
+    width: 100%;
+    background-color: white;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+}
+
+
+/**Font**/
+
+.nav-f {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight:600;
+}
+
+.window-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight:700;
+    color:white;
+}
+
+.window-f {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight:600; 
+    color:white;
+    white-space: pre-line;
+    text-align: center;
+}
+
+.bloc-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size:30px;
+    font-weight: 700;
+    color:#2e2f2f;
+    text-align: center;
+}
+
+.hover-f {
+    font-family: 'Open Sans', sans-serif;
+    font-size:26px;
+    font-weight: 100;
+    color:white;
+    text-align: center;
+}
+
+.hover-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size:30px;
+    font-weight: 400;
+    color:white;
+    text-align: center;
+}
+
+.bloc3-p {
+    font-family: 'Open Sans', sans-serif;
+    font-size:18px;
+    font-weight: 100;
+    color:#2e2f2f;
+    text-align: center;
+}
+
+.bloc4-t {
+    font-family: 'Open Sans', sans-serif;
+    font-size:24px;
+    font-weight: 600;
+    color:white;
+    text-align: center;
+}
+
+.bloc4-p {
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    color:white;
+    text-align: center;
+    white-space: pre-line;
+}
+
+.footer-t {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+
+.footer-p {
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    color:black;
+    text-align: left;
+    white-space: pre-line;
+}
+
+/**Class**/
+
+/**Nav**/
+
+nav ul {
+    padding-top: 14px;
+}
+
+nav ul li {
+    display:inline;
+    list-style: none;
+    margin-top:20px;
+}
+
+.pad-logo {
+    padding-left: 112px;
+    padding-right: 40px;
+}
+
+.pad {
+    margin-left: 30px;
+}
+
+.logo {
+    width: 190px;
+    height: 80px;
+}
+
+
+.wrap-l {
+    margin: 0 auto;
+    height: 100%;
+    width: 20%;
+    margin-top:-25px;
+}
+
+.nav-1{
+    position: relative;
+    top: 23px;
+}
+
+
+.nav-2{
+    position: absolute;
+    top: 22px;
+    left: 854px;
+}
+
+/**Footer**/
+
+.wrap_footer {
+    height:100%;
+    width: 33%;
+    position: relative;
+    float:left;
+}
+
+.foot-1 {
+    height: 60%;
+    top:25px;
+}
+
+.t-pos {
+    padding-top:55px;
+}
+
+.ment-pos {
+    position: relative;
+    top: 20px;
+    left: 52px;
+}
+
+.third-t {
+    position: relative;
+    left: 75px;
+}
+
+.p-1 {
+    top: 125px;
+    position: absolute;
+}
+
+.p-2 {
+    position: relative;
+    top: 40px;
+    left: 144Px;
+    padding-bottom: 30px;
+}
+
+.p-3 {
+    position: relative;
+    top: 36px;
+    left: 166Px;
+    padding-bottom: 30px;
+}
+
+.social {
+    display: inline;
+    height: 40%;
+    width: 60%;
+    position: relative;
+    top: 45px;
+    left: 133px;
+    margin-left: 10px;
+}
+
+.soc {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 7px;
+    background-color: #4099ff;
+
+}
+
+.fb {
+    background-color: #3b5998;
+}
+
+.twi {
+    background-color: #4099ff;
+}
+
+
+.google{
+    background-color: #d62d20;   
+}
+
+        /**Form Footer**/
+.contact_footer {
+    display: block;
+    margin-left: 167px;
+    margin-top: 40px;
+}
+
+.mail {
+    border:4px solid black;
+    width: 181px;
+    height:40px;
+    margin-bottom: 15px;
+}
+
+.sendmail {
+    border:1px solid #ec7e34;
+    background-color: #ec7e34;
+    color:white;
+    width: 190px;
+    height:40px;
+    font-size:18px;
+    text-align: center;
+    font-family: 'Open sans',sans-serif;
+    text-transform: uppercase;
+    
+}

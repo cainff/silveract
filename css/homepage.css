@@ -1,3 +1,11 @@
+/* Import Of Fonts*/
+@font-face {
+  font-family:"OpenSans";
+  src: url("fonts/OpenSans-Bold.ttf");
+  src: url("fonts/OpenSans-Regular.ttf");
+}
+
+
 /**Architecture**/
 
 nav {
@@ -23,9 +31,106 @@ nav {
 
 #bloc2 {
     width: 100%;
-    height: 850px;
+    height: 678px;
+    text-align: center;
     background-color: aquamarine;
+    font-family: "OpenSans", sans-serif;
 }
+#activity{
+  font-weight: bold;
+  padding-top: 20px;
+}
+.activity-bulle-orange{
+  color: #fff;
+  padding: 10px;
+  display: table;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #f17f32;
+}
+.activity-bulle-black{
+  color: #fff;
+  padding: 10px;
+  display: table;
+  border-radius: 10px;
+  background-color: #2f2f2f;
+}
+/* Positionning of different color bloc */
+#n°9{
+  top: 20%;
+  left: 40%;
+  position: relative;
+}
+#n°8{
+  top: -10%;
+  left: 75%;
+  position: relative;
+}
+#n°7{
+  top: 23%;
+  left: 42%;
+  position: relative;
+}
+#n°6{
+  top: 42%;
+  left: 23%;
+  position: relative;
+}
+#n°5{
+  top: -20%;
+  left: 30%;
+  position: relative;
+}
+
+#n°4{
+  top: 10%;
+  left: 20%;
+  position: relative;
+}
+#n°3{
+  top: 60%;
+  left: 60%;
+  position: relative;
+}
+#n°2{
+  left: 70%;
+  position: relative;
+}
+#n°1{
+  left: 48%;
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #bloc3 {
     width: 100%;
@@ -70,7 +175,7 @@ footer {
 .window-f {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    font-weight:600; 
+    font-weight:600;
     color:white;
     white-space: pre-line;
     text-align: center;
@@ -186,7 +291,7 @@ nav ul li {
 .nav-2{
     position: absolute;
     top: 22px;
-    left: 854px;
+    left: 745px;
 }
 
 /**Footer**/
@@ -266,7 +371,7 @@ nav ul li {
 
 
 .google{
-    background-color: #d62d20;   
+    background-color: #d62d20;
 }
 
         /**Form Footer**/
@@ -293,5 +398,35 @@ nav ul li {
     text-align: center;
     font-family: 'Open sans',sans-serif;
     text-transform: uppercase;
-    
+
+}
+
+
+
+
+
+.item{
+  width: 100%;
+}
+#presentation-text{
+  position: absolute;
+  z-index: 2;
+  left: 23%;
+  top: 58%;
+  text-align: center;
+  color: white;
+  background-color: #000;
+  border-radius: 30px;
+  padding: 10px;
+  opacity: .6;
+}
+#presentation{
+  padding-top: 10px;
+  font-size: 14px;
+  font-family: "OpenSans", sans-serif;
+}
+.paragraph{
+  padding-top: 10px;
+  font-size: 10px;
+  font-family: "OpenSans", sans-serif;
 }

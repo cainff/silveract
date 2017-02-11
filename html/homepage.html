@@ -4,102 +4,159 @@
    <meta charset="utf-8">
     <title>Home page - Silver Act</title>
     <!--Fonts-->
-    
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600,700" rel="stylesheet">
-    
-    <!--CSS-->
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="/css/homepage.css">
-    <link  rel="stylesheet" type="text/css" href="/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600,700" rel="stylesheet">
+
+    <!--CSS-->
+
+
+    <link rel="stylesheet" type="text/css" href="../css/homepage.css">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/swiper.min.css">
 </head>
 <body>
-  
+
     <!--Nav bar-->
-   
+
    <nav>
        <div class="wrap">
            <ul class="nav-1">
                <li class="nav-f">Accueil</li>
                <li class="pad nav-f">Qui sommes nous ?</li>
-               <li class="pad nav-f">Activité</li> 
+               <li class="pad nav-f">Activité</li>
            </ul>
                    <div class="wrap-l">
-             
-                      <img class="logo" src="/img/nav/Logo.png">
-                      
+
+                      <img class="logo" src="../img/nav/Logo.png">
+
                    </div>
-                   
-            <ul class="nav-2">       
+
+            <ul class="nav-2">
                <li class="pad nav-f">Evenement</li>
                <li class="pad nav-f">Fonctionnement</li>
                <li class="pad nav-f">Contact</li>
            </ul>
        </div>
    </nav>
-   
+
    <!--Swiper-->
-    
-    <section id="slider">
-        <div id="text_window">
-        </div>
-    </section>
-   
+   <div id="presentation-text">
+     <p id="presentation">PRESENTATION</p>
+     <p class="paragraph">Procedente igitur mox tempore cum adventicium<br>
+        nihil inveniretur, relicta ora maritima in Lycaoniam<br>
+        adnexam Isauriae se contulerunt ibique densis<br>
+        intersaepientes itinera praetenturis provincialium<br>
+        et viatorum opibus pascebantur.
+    </p>
+    <p class="paragraph">Ideo urbs venerabilis post superbas efferatarum<br>
+       gentium cervices oppressas latasque leges<br>
+      fundamenta libertatis et retinacula sempiterna<br>
+      velut frugi parens et prudens et dives Caesaribus<br>
+      tamquam liberis suis regenda patrimonii iura<br>
+      permisit.</p>
+   </div>
+
+   <div class="swiper-container">
+       <div class="swiper-wrapper">
+           <div class="swiper-slide"><img src="../img/swipe/slide_1.png" class="item"></div>
+           <div class="swiper-slide"><img src="../img/swipe/slide_2.png" class="item"></div>
+           <div class="swiper-slide"><img src="../img/swipe/slide_3.png" class="item"></div>
+           <div class="swiper-slide"><img src="../img/swipe/slide_4.png" class="item"></div>
+           <div class="swiper-slide"><img src="../img/swipe/slide_5.png" class="item"></div>
+       </div>
+       <!-- Add Pagination -->
+       <div class="swiper-pagination"></div>
+       <!-- Add Arrows -->
+       <div class="swiper-button-next"></div>
+       <div class="swiper-button-prev"></div>
+   </div>
+
     <!--Bloc2-->
-    
-    <section id="bloc2"></section>
-    
+    <section id="bloc2">
+      <p id="activity">ACTIVITÉ</p>
+      <p class="activity-bulle-orange" id="n°1">Nom activité n°X</p>
+      <p class="activity-bulle-orange" id="n°2">Nom activité n°X</p>
+      <p class="activity-bulle-orange" id="n°3">Nom activité n°X</p>
+      <p class="activity-bulle-orange" id="n°4">Nom activité n°X</p>
+      <p class="activity-bulle-black" id="n°5">Nom activité n°X</p>
+      <p class="activity-bulle-black" id="n°6">Nom activité n°X</p>
+      <p class="activity-bulle-black" id="n°7">Nom activité n°X</p>
+      <p class="activity-bulle-black" id="n°8">Nom activité n°X</p>
+      <p class="activity-bulle-black" id="n°9"><span>Nom activité</span><br>
+                                      Haec igitur prima lex amicitiae<br>
+                                      sanciatur, ut ab amicis honesta<br>
+                                      petamus, amicorum ut ab<br>
+                                      amicis honesta petamus</p>
+    </section>
+
     <!--Bloc3-->
 
-    <section id="bloc3"></section>  
-    
+    <section id="bloc3"></section>
+
     <!--Bloc4-->
 
-    <section id="bloc4"></section> 
-    
-    <!--Footer-->
+    <section id="bloc4"></section>
+
+    <!--Footer--->
 
     <footer>
        <div class="wrap">
             <div class="wrap_footer foot-1">
-                <img src="/img/footer/Logo-foot.png"> 
+                <img src="../img/footer/Logo-foot.png">
                     <p class="footer-p p-1">Erat autem diritatis eius hoc quoque indicium nec
                     obscurum nec latens, quod ludicris cruentis
-                    delectabatur et in circo sex vel septem aliquotiens </p>   
+                    delectabatur et in circo sex vel septem aliquotiens </p>
             </div>
-            
+
             <div class="wrap_footer">
-               
-                <p class="footer-t t-pos">Contact</p>    
+
+                <p class="footer-t t-pos">Contact</p>
                     <p class="footer-p p-2">Tel : 01 50 63 97 54</p>
                     <p class="footer-p p-2">64 Rue de République - Paris 75011</p>
-                
+
                         <div class="social">
 
-                           <img class="soc fb" src="/img/footer/facebook.png">
-                           <img class="soc twi" src="/img/footer/twitter.png">
-                           <img class="soc google" src="/img/footer/google.png">
+                           <img class="soc fb" src="../img/footer/facebook.png">
+                           <img class="soc twi" src="../img/footer/twitter.png">
+                           <img class="soc google" src="../img/footer/google.png">
 
                         </div>
-                    
+
                     <p class="footer-t t-pos ment-pos">Mentions légales</p>
             </div>
-            
+
             <div class="wrap_footer">
                 <p class="footer-t t-pos third-t">Me faire rappeler</p>
-                    <p class="footer-p p-3">Laissez votre numéro de téléphone 
-                    et nous vous rapellerons dans les 
+                    <p class="footer-p p-3">Laissez votre numéro de téléphone
+                    et nous vous rapellerons dans les
                     plus bref délais !</p>
-                    
+
                         <form class="contact_footer">
                             <input type="email" class="mail">
                             <input type="submit" class="sendmail" value="Submit">
                         </form>
-                
+
             </div>
         </div>
-    </footer>
-   
-    
+    </footer>-->
+
+
+    <!-- Swiper JS -->
+    <script src="../js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 30,
+        loop: true
+    });
+    </script>
+
 </body>
 </html>

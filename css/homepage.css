@@ -42,54 +42,79 @@ nav {
 }
 .activity-bulle-orange{
   color: #fff;
-  padding: 10px;
+  padding: 30px;
   display: table;
   margin-top: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: #f17f32;
 }
 .activity-bulle-black{
   color: #fff;
-  padding: 10px;
+  padding: 30px;
   display: table;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: #2f2f2f;
+}
+/* swipe */
+.item{
+  width: 100%;
+}
+#presentation-text{
+  top: 80%;
+  left: 10%;
+  z-index: 2;
+  opacity: .6;
+  padding: 5px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  border-radius: 30px;
+  background-color: #000;
+  font-family: "OpenSans", sans-serif;
+}
+#presentation{
+  font-size: 20px;
+  padding-top: 10px;
+}
+.paragraph{
+  font-size: 14px;
+  padding-top: 10px;
 }
 /* Positionning of different color bloc */
 #n°9{
-  top: 20%;
+  top: -35%;
   left: 40%;
   position: relative;
 }
 #n°8{
-  top: -10%;
+  top: -48%;
   left: 75%;
   position: relative;
 }
 #n°7{
-  top: 23%;
+  top: -46%;
   left: 42%;
   position: relative;
 }
 #n°6{
-  top: 42%;
-  left: 23%;
+  top: 4%;
+  left: 18%;
   position: relative;
 }
 #n°5{
-  top: -20%;
-  left: 30%;
+  top: -40%;
+  left: 18%;
   position: relative;
 }
 
 #n°4{
-  top: 10%;
-  left: 20%;
+  top: -5%;
+  left: 10%;
   position: relative;
 }
 #n°3{
-  top: 60%;
-  left: 60%;
+  top: 42%;
+  left: 67%;
   position: relative;
 }
 #n°2{
@@ -97,41 +122,11 @@ nav {
   position: relative;
 }
 #n°1{
-  left: 48%;
+  left: 44%;
   position: relative;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* */
 #bloc3 {
     width: 100%;
     height: 341px;
@@ -151,7 +146,7 @@ footer {
 }
 
 .wrap {
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     width: 80%;
     height: 100%;
 }
@@ -277,14 +272,15 @@ nav ul li {
 
 .wrap-l {
     margin: 0 auto;
-    height: 100%;
-    width: 20%;
+    height: 26%;
+    width: 0%;
     margin-top:-25px;
 }
 
 .nav-1{
     position: relative;
     top: 23px;
+    left: 80px;
 }
 
 
@@ -399,34 +395,4 @@ nav ul li {
     font-family: 'Open sans',sans-serif;
     text-transform: uppercase;
 
-}
-
-
-
-
-
-.item{
-  width: 100%;
-}
-#presentation-text{
-  position: absolute;
-  z-index: 2;
-  left: 23%;
-  top: 58%;
-  text-align: center;
-  color: white;
-  background-color: #000;
-  border-radius: 30px;
-  padding: 10px;
-  opacity: .6;
-}
-#presentation{
-  padding-top: 10px;
-  font-size: 14px;
-  font-family: "OpenSans", sans-serif;
-}
-.paragraph{
-  padding-top: 10px;
-  font-size: 10px;
-  font-family: "OpenSans", sans-serif;
 }

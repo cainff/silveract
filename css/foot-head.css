@@ -1,142 +1,3 @@
-/* Import Of Fonts*/
-@font-face {
-  font-family:"OpenSans";
-  src: url("fonts/OpenSans-Bold.ttf");
-  src: url("fonts/OpenSans-Regular.ttf");
-}
-
-
-/**Architecture**/
-
-nav {
-    width: 100%;
-    height: 95px;
-    background-color: white;
-}
-
-#slider {
-    width: 100%;
-    height: 670px;
-    background-color: red;
-}
-
-#text_window {
-    width: 400px;
-    height: 310px;
-    background-color: grey;
-    position: absolute;
-    top: 450px;
-    left: 170px;
-}
-
-        /* Bloc2 */
-#bloc2 {
-    width: 100%;
-    height: 678px;
-    text-align: center;
-    background-color: aquamarine;
-    font-family: "OpenSans", sans-serif;
-    margin-top: 30px;
-}
-
-#video{
-}
-
-
-
-
-        /* Bloc3 */
-
-
-
-#bloc3 {
-    width: 100%;
-    height: 615px;
-    background-color: white;
-    font-family: "OpenSans", sans-serif;
-}
-#lady1{
-    float: left;
-    margin-top: 60px;
-    margin-right: 50px;
-    border-radius: 100%;
-}
-
-/*#lady1:hover{
-    border-radius: 100%;
-    border: 5px solid red;
-} */
-
-#prename{
-    font-size: 30px;    
-    padding-top: 97px;
-    font-weight: bold;
-}
-#paragraph{
-    font-size: 16px;
-    padding-top: 46px;
-}
-
-#lady2{
-    float: right;
-    margin-top: 60px;
-    margin-left: 50px;
-}
-
-
-#prename2{
-    font-size: 30px;
-    font-weight: bold;
-    text-align: right;
-    padding-top: 110px;
-}
-#paragraph2{
-    font-size: 16px;
-    padding-top: 46px;
-    text-align: right;
-}
-
-
-
-#bloc4 {
-    width: 100%;
-    height: 267px;
-    background-color: #faecd8;
-    font-family: "OpenSans", sans-serif;
-}
-#title{
-    font-size: 30px;
-    padding-top: 50px;
-    font-weight: bold;
-    text-align: center;
-}
-#paragraph3{
-    font-size: 18px;
-    margin-top: 52px;
-    text-align: center;
-}
-
-
-
-footer {
-    height: 350px;
-    width: 100%;
-    background-color: white;
-}
-
-.wrap {
-    margin: 0 auto;
-    width: 90%;
-    height: 100%;
-}
-
-.wrap_foot {
-    margin: 0 auto;
-    width: 80%;
-    height: 100%;
-}
-
-
 /**Font**/
 
 .nav-f {
@@ -226,10 +87,75 @@ footer {
     white-space: pre-line;
 }
 
-/**Class**/
+/**Nav**/
+
+
+
+nav {
+    width: 100%;
+    height: 95px;
+    background-color: white;
+}
+
+nav ul {
+    padding-top: 14px;
+}
+
+nav ul li {
+    display:inline;
+    list-style: none;
+    margin-top:20px;
+}
+
+.pad-logo {
+    padding-left: 112px;
+    padding-right: 40px;
+}
+
+.pad {
+    margin-left: 30px;
+}
+
+.logo {
+    width: 170px;
+    height: 80px;
+}
+
+
+.wrap-l {
+    margin: 0 auto;
+    height: 26%;
+    width: 17%;    
+    margin-top: -25px;
+}
+
+.nav-1{
+    position: relative;
+    top: 23px;
+    left: 80px;
+}
+
+
+.nav-2{
+    position: absolute;
+    top: 22px;
+    left: 745px;
+    padding-left: 49px;
+}
+
+
 
 
 /**Footer**/
+
+footer {
+    position: relative;
+    height: 350px;
+    width: 100%;
+    background-color: white;
+    float: left;
+}
+
 
 .wrap_footer {
     height:100%;
@@ -240,16 +166,18 @@ footer {
 
 .foot-1 {
     height: 60%;
-    top:25px;
+    top: 25px;
+    right: 141px;
 }
 
 .t-pos {
     padding-top:55px;
+    padding-left: 22px;
 }
 
 .ment-pos {
     position: relative;
-    top: 20px;
+    top: -19px;
     left: 52px;
 }
 
@@ -263,11 +191,20 @@ footer {
     position: absolute;
 }
 
+.logo-foot-pos {
+    top: 79px;
+}
+
+#logo-f{
+    position: absolute;
+    left: 63Px;
+}
+
 .p-2 {
     position: relative;
-    top: 40px;
+    top: 17px;
     left: 144Px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .p-3 {
@@ -277,12 +214,17 @@ footer {
     padding-bottom: 30px;
 }
 
+.wrap_foot_3 {
+    margin-left: -45px;
+    top: 28px;
+}
+
 .social {
     display: inline;
     height: 40%;
     width: 60%;
     position: relative;
-    top: 45px;
+    top: 15px;
     left: 133px;
     margin-left: 10px;
 }
@@ -298,6 +240,7 @@ footer {
 
 .fb {
     background-color: #3b5998;
+    margin-right: 10px;
 }
 
 .twi {
@@ -307,6 +250,7 @@ footer {
 
 .google{
     background-color: #d62d20;
+    margin-left: 10px;
 }
 
         /**Form Footer**/

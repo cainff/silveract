@@ -291,6 +291,138 @@ footer {
     height: 100%;
 }
 
+/** Design bloc3 **/
+#bloc3 {
+    width: 100%;
+    height: 340px;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+#bloc3 h2{
+    padding-top: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+#bloc3 p{
+    padding-top: 45px;
+    font-size: 14px;
+    text-align: center;
+}
+.email-adress {
+    border: 4px solid black;
+    width: 490px;
+    height: 55px;
+    margin-left: 90px;
+    margin-top: 20px;
+    background: none;
+    color: black;
+    font-size: 17px;
+    padding-left: 40px;
+}
+::-webkit-input-placeholder {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;    
+}
+.submit {
+    border: none;
+    background-color: #ec7e34;
+    color: white;
+    width: 275px;
+    height: 65px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+/** Design bloc4 **/
+#bloc4 {
+    width: 100%;
+    height: 676px;
+    background-color: #faecd8;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+#bloc4 h2{
+    padding-top: 50px;
+    font-size: 20px;
+}
+.actu{
+    display: inline-block;
+    width: 480px;
+    position: relative;
+    overflow: hidden;
+}
+.actu img{
+    margin-top: 10%; 
+    width: 100%;
+    border: 4px solid white;
+}
+.text{
+    position: absolute;
+    /* visibility: hidden; */
+    background-color: rgba(0,0,0,0.5);
+    width: 490px;
+    height: 490px;
+    /* left: 11px; */
+    text-align: center;
+    color: white;
+    /* bottom: 490px; */
+    top: 49px;
+    left: -103%;
+    -webkit-transition: 2s all;
+}
+.text h2{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    -webkit-transform:
+        translateX(-50%);
+    font-size: 15px;
+}
+.text p{
+    position: absolute;
+    top: 160px;
+    left: 8%;
+    font-size: 12px;
+    line-height: normal;
+}
+.text a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px; 
+    position: absolute;
+    top: 440px;
+    left: 380px;
+}
+.text span img{
+    width: 7px;
+    border: none;
+    margin-top: 5px;
+}
+.text span{
+    margin: 5px;
+}
+.actu:hover .text {
+    left:0%;
+}
+
+
+footer {
+    height: 350px;
+    width: 100%;
+    background-color: white;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+}
+
 
 /**Font**/
 
@@ -443,7 +575,8 @@ nav ul li {
 
 .foot-1 {
     height: 60%;
-    top:25px;
+    top: 25px;
+    right: 141px;
 }
 
 .t-pos {
@@ -452,7 +585,7 @@ nav ul li {
 
 .ment-pos {
     position: relative;
-    top: 20px;
+    top: -19px;
     left: 52px;
 }
 
@@ -466,11 +599,20 @@ nav ul li {
     position: absolute;
 }
 
+.logo-foot-pos {
+    top: 79px;
+}
+
+#logo-f{
+    position: absolute;
+    left: 63Px;
+}
+
 .p-2 {
     position: relative;
-    top: 40px;
+    top: 17px;
     left: 144Px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .p-3 {
@@ -480,12 +622,17 @@ nav ul li {
     padding-bottom: 30px;
 }
 
+.wrap_foot_3 {
+    margin-left: -45px;
+    top: 28px;
+}
+
 .social {
     display: inline;
     height: 40%;
     width: 60%;
     position: relative;
-    top: 45px;
+    top: 15px;
     left: 133px;
     margin-left: 10px;
 }
@@ -501,6 +648,7 @@ nav ul li {
 
 .fb {
     background-color: #3b5998;
+    margin-right: 10px;
 }
 
 .twi {
@@ -510,6 +658,7 @@ nav ul li {
 
 .google{
     background-color: #d62d20;
+    margin-left: 10px;
 }
 
         /**Form Footer**/

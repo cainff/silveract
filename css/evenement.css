@@ -10,7 +10,7 @@
     background: -webkit-linear-gradient(380deg, #7ac0bc, #fff); 
 }
 #paragraph{    
-    top: 36%;
+    top: 25%;
     left: 12%;
     color: #fff;
     font-size: 20px;
@@ -27,13 +27,12 @@
     color: #2e2f2f;
     font-size: 30px;
     font-weight: bold;
-    margin: 5% 0 5% 11%;
+    margin: 2% 0 5% 11%;
 }
 .events-day{
     width: 95%;
     margin: 0 auto;
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin-bottom: 100px;
 }
 .bingo{
     width: 51%;
@@ -53,7 +52,7 @@
 }
 .reserve{
     color: #fff;
-    margin-top: 4%;
+    margin-top: 3%;
     margin-left: 10%;
     padding: 12px 40px;
     text-align: center;
@@ -70,6 +69,17 @@
     -webkit-transition: .5s ease;
     transition: .5s ease;
     -webkit-box-shadow: 10px 10px 5px 0px #656565;
+}
+.localisation{
+    top: -46px;
+    float: right;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    padding: 10px 135px;
+    background-color: rgba(0,0,0,0.6);
 }
 #down{
     width: 100%;

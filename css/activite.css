@@ -1,12 +1,75 @@
-/* Import Of Fonts*/
-@font-face {
-    font-family:"OpenSans" "gotham-black";
-    src: url("fonts/gotham-black.ttf");
-    src: url("fonts/gotham_black.eot");
-    src: url("fonts/gotham-black.woff");
-    src: url("fonts/OpenSans-Bold.ttf");
-    src: url("fonts/OpenSans-Regular.ttf");
+/**SubNav**/
+
+.subnav {
+    height: 62px;
+    width: 100%;
+    background-color: #faecd8;
 }
+
+
+.wrapsub {
+    width: 90%;
+    height: 25%;
+    padding-top: 24px;
+}
+
+.subnav ul li {
+    display: inline;
+    padding-left: 50px;
+    font-family: 'Open sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/**Bloc1**/
+
+#full_img {
+    background: url('../img/imgtop.png');
+    background-size:cover ;
+    height: 629px;
+    width: 100%;
+}
+
+/**Bloc2**/ 
+
+.wrapbloc2 {
+    margin-top:40px;
+}
+
+.title_act {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.wraptextbloc2 {
+    width: 65%;
+    position: relative;
+    float: left;
+    margin: initial;
+    margin-top: 15px;
+}
+
+.txt_act{
+    white-space: pre-wrap;
+    font-family: 'Open Sans',sans-serif;
+    font-size:16px;
+}
+
+.wrapvideo-act {
+    position: relative;
+    float: right;
+    width: 32%;
+}
+
+
+
+
+
+
+
+
 
 #section{
     width: 100%;
@@ -52,6 +115,12 @@
     font-size: 72px;
     font-family: 'gotham-black', sans-serif;
 }
+
+
+
+
+
+
 #first-part{
     width: 64%;
     height: 796px;

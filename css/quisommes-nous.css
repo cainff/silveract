@@ -39,10 +39,6 @@ nav {
     margin-top: 30px;
 }
 
-#video{
-}
-
-
 
 
         /* Bloc3 */
@@ -226,112 +222,76 @@ footer {
     white-space: pre-line;
 }
 
-/**Class**/
+@media screen and (max-width: 768px) {
 
 
-/**Footer**/
+    #video{
+        height: 100%;
+        width: 100%;
+    }
+    
+    #bloc2 {
+        height: 298px;
+        margin-top: 0px;
+    }
+    
+    #bloc3 {
+    height: 845px;
+       
+    }
+    
+    #lady1 {
+    float: left;
+    margin-top: 10%;
+    margin-right: 6%;
+    border-radius: 100%;
+    width: 49%;
+    /* height: 186px; */
+    }
+    
+    #lady2 {
+        width: 49%;
+        margin-left: 0px;
+    }
 
-.wrap_footer {
-    height:100%;
-    width: 33%;
-    position: relative;
-    float:left;
-}
-
-.foot-1 {
-    height: 60%;
-    top:25px;
-}
-
-.t-pos {
-    padding-top:55px;
-}
-
-.ment-pos {
-    position: relative;
-    top: 20px;
-    left: 52px;
-}
-
-.third-t {
-    position: relative;
-    left: 75px;
-}
-
-.p-1 {
-    top: 125px;
-    position: absolute;
-}
-
-.p-2 {
-    position: relative;
-    top: 40px;
-    left: 144Px;
-    padding-bottom: 30px;
-}
-
-.p-3 {
-    position: relative;
-    top: 36px;
-    left: 166Px;
-    padding-bottom: 30px;
-}
-
-.social {
-    display: inline;
-    height: 40%;
-    width: 60%;
-    position: relative;
-    top: 45px;
-    left: 133px;
-    margin-left: 10px;
-}
-
-.soc {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    padding: 7px;
-    background-color: #4099ff;
-
-}
-
-.fb {
-    background-color: #3b5998;
-}
-
-.twi {
-    background-color: #4099ff;
-}
-
-
-.google{
-    background-color: #d62d20;
-}
-
-        /**Form Footer**/
-.contact_footer {
-    display: block;
-    margin-left: 167px;
-    margin-top: 40px;
-}
-
-.mail {
-    border:4px solid black;
-    width: 181px;
-    height:40px;
-    margin-bottom: 15px;
-}
-
-.sendmail {
-    border:1px solid #ec7e34;
-    background-color: #ec7e34;
-    color:white;
-    width: 190px;
-    height:40px;
-    font-size:18px;
+    #paragraph {
+    font-size: 15px;
+    padding-top: 25%;
+    }
+    
+    #paragraph2 {
+    padding-top: 28%;
+    }
+    
+    #prename{
+    padding-top: 32%;
+    }
+    
+    #prename2{
+    padding-top: 36%;
+    text-align: left;
+    padding-left: 6%;
+    }
+    
+    #paragraph3 {
+    font-size: 15px;
+    margin-top: 4%;
     text-align: center;
-    font-family: 'Open sans',sans-serif;
-    text-transform: uppercase;
+    }
+    
+    #title {
+    font-size: 30px;
+    padding-top: 7%;
+    font-weight: bold;
+    text-align: center;
+    
+    }
 
+    
 }
+
+
+
+
+
+

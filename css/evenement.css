@@ -9,7 +9,7 @@
 #section{
     width: 100%;
     height: 504px;
-    background-image: url(../img/punaise.png);
+    background: url(../img/punaise.png);
 }
 #gradient{
     width: 100%;
@@ -96,4 +96,44 @@
     width: 100%;
     height: 5px;
     background-color: #6ac1c1;
+}
+
+@media screen and (max-width: 768px) {
+    #paragraph {
+    top: 25%;
+    left: 12%;
+    color: black;
+    font-size: 16px;
+    line-height: 20px;
+    position: absolute;
+    font-family: 'Opens sans', sans-serif;
+    font-weight: bold;
+    }
+    
+    .center {
+        width: 99%;
+    }
+    
+    .day {
+    color: #2e2f2f;
+    font-size: 19px;
+    margin-bottom: 6%;
+    margin-top: 4%;
+    margin-left: 4%;
+    }
+    
+    .comment {
+    color: #454646;
+    width: 100%;
+    text-align: center;
+    }
+    
+    .bingo {
+    width: 80%;
+    /* float: right; */
+    height: 248px;
+    position: relative;
+    margin-left: 10%;
+    }
+
 }

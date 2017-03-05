@@ -3,6 +3,8 @@
 <head>
    <meta charset="utf-8">
     <title>Activité - Silver Act</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!--Fonts-->
     
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600,700" rel="stylesheet">
@@ -10,37 +12,55 @@
     <!--CSS-->
     
 
-    <link rel="stylesheet" type="text/css" href="../css/homepage.css">
-    <link rel="stylesheet" type="text/css" href="../css/foot-head.css">
     <link  rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/foot-head.css">
     <link rel="stylesheet" type="text/css" href="../css/activite.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 </head>
 <body>
   
-    <!--Nav bar-->
-   
+<!--Nav bar-->
+
    <nav>
        <div class="wrap">
            <ul class="nav-1">
                <li class="nav-f">Accueil</li>
-               <li class="pad nav-f">Qui sommes nous ?</li>
-               <li class="pad nav-f">Activité</li> 
+               <li class="pad nav-f"><a href="quisommesnous.html">Qui sommes nous ?</a></li>
+               <li class="pad nav-f">Activité</li>
            </ul>
                    <div class="wrap-l">
-             
+
                       <img class="logo" src="../img/nav/Logo.png">
-                      
+
                    </div>
-                   
-            <ul class="nav-2">       
-               <li class="pad nav-f">Evenement</li>
+
+            <ul class="nav-2">
+               <li class="pad nav-f">Evenements</li>
                <li class="pad nav-f">Fonctionnement</li>
                <li class="pad nav-f">Contact</li>
            </ul>
+           <div class="nav-r">
+            <div id="nav-icon1">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+                       
+            <ul class="nav_resp">
+                <li>Accueil</li>
+                <li>Qui sommes nous ?</li>
+                <li>Activité</li>
+                <li>Evenements</li>
+                <li>Fonctionnement</li>
+                <li class="li_con">Contact</li>
+            </ul>
+           </div>
+                        
        </div>
    </nav>
+   
    
    <!--Sub Nav-->
    
@@ -81,23 +101,6 @@ potenti.
 
 Suspendisse in porta ipsum. Duis consectetur eros at mi sagittis sollicitudin. Curabitur non magna mollis, fringilla orci sit amet, semper sapien. Nullam sagittis risus sed commodo rhoncus.
 
-
-Etiam suscipit lacinia metus ut feugiat. Sed vitae neque eu lacus elementum commodo. Nunc nunc purus, pretium vel mattis et, tempor in mi. Pellentesque felis nibh, tincidunt eget ipsum non, egestas porta risus. Nam at aliquam dolor. Proin vitae erat eu lorem vehicula efficitur. Aenean suscipit dapibus tellus non luctus. Sed pellentesque pharetra mi ac lobortis. Curabitur nulla ex, finibus et odio eu, semper tristique odio.
-
-
-Pellentesque egestas varius suscipit. Etiam volutpat turpis justo, ac maximus leo consequat id.
-Pellentesque vehicula, purus non fermentum dignissim, purus sapien mattis velit, vel mollis risus nibh non nisi. 
-
-
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed sollicitudin ligula eget sem ullamcorper, ut bibendum odio porttitor.
-
-
-Duis eu diam eu justo placerat molestie ut a odio. Cras sit amet diam a sem rutrum ornare. Maecenas venenatis ut nisi id commodo. Cras dignissim, enim in dapibus porttitor, nibh lectus aliquet eros, vel malesuada nisi arcu feugiat nibh.
-
-
-Etiam suscipit lacinia metus ut feugiat. Sed vitae neque eu lacus elementum commodo. Nunc nunc purus, pretium vel mattis et, tempor in mi. Pellentesque felis nibh, tincidunt eget ipsum non, egestas porta risus. Nam at aliquam dolor. Proin vitae erat eu lorem vehicula efficitur. Aenean suscipit dapibus tellus non luctus. Sed pellentesque pharetra mi ac lobortis. Curabitur nulla ex, finibus et odio eu, semper tristique odio.
-
-
 </p>
            </div>
            
@@ -113,7 +116,7 @@ Etiam suscipit lacinia metus ut feugiat. Sed vitae neque eu lacus elementum comm
         <div id="independant-box">
             <img src="../img/gun-mami.png" id="gun-mami">
             <p id="commentary"><span class="apostrophe">"</span> Depuis mon activité découverte de la VR avec Silver Act je ne vois plus la vie de la même façon
-            <span id="mami-age">Mami - 69 ans</span> <span class="apostrophe">"</span></p>
+            <span id="mami-age">Mami - 69 ans</span> <span class="apostrophe apo-down">"</span></p>
         </div>        
     
         <section id="section">
@@ -175,7 +178,9 @@ Etiam suscipit lacinia metus ut feugiat. Sed vitae neque eu lacus elementum comm
         </div>
     </footer>
    
-    <script src="../js/activite.js"></script>
+   <!-- <script src="../js/activite.js"></script> -->
+       <script src="../js/nav_res.js"></script>
+
     
 </body>
 </html>

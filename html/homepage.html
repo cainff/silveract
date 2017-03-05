@@ -3,6 +3,9 @@
 <head>
    <meta charset="utf-8">
     <title>Home page - Silver Act</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!--Jquery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
@@ -11,10 +14,11 @@
     <link rel="shortcut icon" type="image/png" href="../img/nav/logo.png">
 
     <!--CSS-->
-    <link rel="stylesheet" type="text/css" href="../css/homepage.css">
-    <link rel="stylesheet" type="text/css" href="../css/foot-head.css">
     <link rel="stylesheet" type="text/css" href="../css/reset.css">
     <link rel="stylesheet" type="text/css" href="../css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/homepage.css">
+    <link rel="stylesheet" type="text/css" href="../css/foot-head.css">
+
 </head>
 <body>
 
@@ -34,12 +38,31 @@
                    </div>
 
             <ul class="nav-2">
-               <li class="pad nav-f">Evenement</li>
+               <li class="pad nav-f">Evenements</li>
                <li class="pad nav-f">Fonctionnement</li>
                <li class="pad nav-f">Contact</li>
            </ul>
+           <div class="nav-r">
+            <div id="nav-icon1">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+                       
+            <ul class="nav_resp">
+                <li>Accueil</li>
+                <li>Qui sommes nous ?</li>
+                <li>Activité</li>
+                <li>Evenements</li>
+                <li>Fonctionnement</li>
+                <li class="li_con">Contact</li>
+            </ul>
+           </div>
+                        
        </div>
    </nav>
+   
+
 
    <!--Swiper-->
    <div id="presentation-text">
@@ -104,8 +127,10 @@
     <!--Bloc4-->
 
     <section id="bloc4">
+       
+       <div class="wrap">
         <h2> DERNIERE ACTUALITE </h2>
-        <div class="actu actu2">
+        <div class="actu actu2 marg">
             <img src="../img/bloc4/tele-matin.png" class="hover" />
             <div class="text">
                 <h2> Titre </h2>
@@ -113,12 +138,14 @@
                 <a href="#"> En savoir plus</a>
             </div>
         </div>
+        
         <div class="actu actu2">
             <img src="../img/bloc4/actu1.png" class="hover" />
             <div class="text txt-pos2">
                 <h2> Titre </h2>
                 <p>Sed si ille hac tam eximia fortuna propter utilitatem rei publicae frui non<br/>properat, ut omnia illa conficiat, quid ego, senator, facere debeo, quem,<br/>etiamsi ille aliud vellet, rei publicae consulere oporteret?<br/><br/>Procedente igitur mox tempore cum adventicium nihil inveniretur,<br/>relicta ora<br/><br/>maritima in Lycaoniam adnexam Isauriae se contulerunt ibique densis<br/>intersaepientes itinera praetenturis provincialium et viatorum opibus<br/>pascebantur.</p>
                 <a href="#"> En savoir plus</a>
+                </div>
             </div>
         </div>
     </section> 
@@ -172,18 +199,7 @@
     <!-- Swiper JS -->
     <script src="../js/swiper.min.js"></script>
 
-    <!-- Initialize Swiper -->
-    <script>
-    var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        slidesPerView: 1,
-        paginationClickable: true,
-        spaceBetween: 30,
-        loop: true
-    });
-    </script>
+   <script src="../js/nav_res.js"></script>
 
 </body>
 </html>

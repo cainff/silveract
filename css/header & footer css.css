@@ -58,8 +58,8 @@ footer {
     width: 100%;
     background-color: white;
 }
-.wrap {
-    /*margin: 0 auto;*/
+.wrap-nav {
+   /* margin: 0 auto;*/
     width: 80%;
     height: 100%;
 }
@@ -68,6 +68,11 @@ footer {
     width: 33%;
     position: relative;
     float:left;
+}
+.wrap-foot {
+    margin: 0 auto;
+    width: 75%;
+    height: 100%;
 }
 .footer-p {
     font-family: 'Open Sans', sans-serif;

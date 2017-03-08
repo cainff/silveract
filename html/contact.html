@@ -9,7 +9,7 @@
     
     <!--CSS-->
     <link  rel="stylesheet" type="text/css" href="../css/reset.css">
-    <link rel="stylesheet" type="text/css" href="../css/homepage.css">
+    <link rel="stylesheet" type="text/css" href="../css/contact.css">
     <link rel="stylesheet" type="text/css" href="../css/header & footer css.css">
 </head>
 <body>
@@ -17,7 +17,7 @@
     <!--Nav bar-->
    
    <nav>
-       <div class="wrap">
+       <div class="wrap-nav">
            <ul class="nav-1">
                <li class="nav-f"><a href="homepage.html">Accueil</a></li>
                <li class="pad nav-f"><a href="quisommesnous.html">Qui Sommes-Nous ?</a></li>
@@ -35,51 +35,72 @@
        </div>
    </nav>
    
-
+    <div id="contact">
+        <form class="general-contact">
+            <input class="objet" list="series" placeholder="OBJET">
+            <datalist id="series">
+                <option value="Choix 1"> 
+                <option value="Choix 2"> 
+                <option value="Choix 3">
+                <option value="Choix 4">
+            </datalist>
+            <div id="formulaire">
+                <input class="name" placeholder="VOTRE NOM" type="text"> 
+                <input class="first-name" placeholder="VOTRE PRENOM" type="text"> 
+                <input class="email" placeholder="EMAIL" type="text"> 
+                <input class="phone" placeholder="TELEPHONE" type="text"> 
+            </div>
+            <input class="message" placeholder="VOTRE MESSAGE" type="text">
+        </form>
+    </div>
+  <!--  <div id="map">
+        <iframe height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJAQAAAKxv5kcR8WB7Zz7Qml4&key=AIzaSyDg-ooqye3RPNPtGAkx9YCqVbzcAW1pQUY" allowfullscreen></iframe>
+    </div>-->
     
     <!--Footer-->
-
+    
     <footer>
-       <div class="wrap">
+        <div class="wrap-foot">
             <div class="wrap_footer foot-1">
-                <img src="../img/footer/Logo-foot.png"> 
-                    <p class="footer-p p-1">Erat autem diritatis eius hoc quoque indicium nec
+                <p class="footer-t t-pos">Contact</p>    
+                <p class="footer-p p-2">Tel : 01 50 63 97 54</p>
+                <p class="footer-p p-2">64 Rue de République - Paris 75011</p>
+
+                <div class="social">
+
+                    <img class="soc fb" src="../img/footer/facebook.png">
+                    <img class="soc twi" src="../img/footer/twitter.png">
+                    <img class="soc google" src="../img/footer/google.png">
+
+                </div>
+
+                <p class="footer-t t-pos ment-pos">Mentions légales</p>
+            </div>
+
+            <div class="wrap_footer logo-foot-pos">
+
+                <img id="logo-f" src="../img/footer/Logo-foot.png"> 
+                <p class="footer-p p-1">Erat autem diritatis eius hoc quoque indicium nec
                     obscurum nec latens, quod ludicris cruentis
                     delectabatur et in circo sex vel septem aliquotiens </p>   
             </div>
-            
-            <div class="wrap_footer">
-               
-                <p class="footer-t t-pos">Contact</p>    
-                    <p class="footer-p p-2">Tel : 01 50 63 97 54</p>
-                    <p class="footer-p p-2">64 Rue de République - Paris 75011</p>
-                
-                        <div class="social">
 
-                           <img class="soc fb" src="../img/footer/facebook.png">
-                           <img class="soc twi" src="../img/footer/twitter.png">
-                           <img class="soc google" src="../img/footer/google.png">
 
-                        </div>
-                    
-                    <p class="footer-t t-pos ment-pos">Mentions légales</p>
-            </div>
-            
-            <div class="wrap_footer">
+            <div class="wrap_footer wrap_foot_3">
                 <p class="footer-t t-pos third-t">Me faire rappeler</p>
-                    <p class="footer-p p-3">Laissez votre numéro de téléphone 
+                <p class="footer-p p-3">Laissez votre numéro de téléphone 
                     et nous vous rapellerons dans les 
                     plus bref délais !</p>
-                    
-                        <form class="contact_footer">
-                            <input type="email" class="mail">
-                            <input type="submit" class="sendmail" value="Submit">
-                        </form>
-                
+
+                <form class="contact_footer">
+                    <input type="email" class="mail">
+                    <input type="submit" class="sendmail" value="Submit">
+                </form>
+
             </div>
         </div>
     </footer>
-   
     
+    <script src="../js/nav_res.js"></script>  
 </body>
 </html>

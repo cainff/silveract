@@ -3,6 +3,8 @@
 <head>
    <meta charset="utf-8">
     <title>Activité - Silver Act</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!--Fonts-->
     
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600,700" rel="stylesheet">
@@ -10,65 +12,158 @@
     <!--CSS-->
     
 
-    <link rel="stylesheet" type="text/css" href="/css/homepage.css">
-    <link  rel="stylesheet" type="text/css" href="/css/reset.css">
+    <link  rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/foot-head.css">
+    <link rel="stylesheet" type="text/css" href="../css/activite.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
 </head>
 <body>
   
-    <!--Nav bar-->
-   
+<!--Nav bar-->
+
    <nav>
        <div class="wrap">
            <ul class="nav-1">
                <li class="nav-f">Accueil</li>
-               <li class="pad nav-f">Qui sommes nous ?</li>
-               <li class="pad nav-f">Activité</li> 
+               <li class="pad nav-f"><a href="quisommesnous.html">Qui sommes nous ?</a></li>
+               <li class="pad nav-f">Activité</li>
            </ul>
                    <div class="wrap-l">
-             
-                      <img class="logo" src="/img/nav/Logo.png">
-                      
+
+                      <img class="logo" src="../img/nav/Logo.png">
+
                    </div>
-                   
-            <ul class="nav-2">       
-               <li class="pad nav-f">Evenement</li>
+
+            <ul class="nav-2">
+               <li class="pad nav-f">Evenements</li>
                <li class="pad nav-f">Fonctionnement</li>
                <li class="pad nav-f">Contact</li>
            </ul>
+           <div class="nav-r">
+            <div id="nav-icon1">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+                       
+            <ul class="nav_resp">
+                <li>Accueil</li>
+                <li>Qui sommes nous ?</li>
+                <li>Activité</li>
+                <li>Evenements</li>
+                <li>Fonctionnement</li>
+                <li class="li_con">Contact</li>
+            </ul>
+           </div>
+                        
        </div>
    </nav>
    
+   
+   <!--Sub Nav-->
+   
+   <section class="subnav">
+      <div class="wrap wrapsub">
+           <ul>
+               <li>Activité n°1</li>
+               <li>Activité n°2</li>
+               <li>Activité n°3</li>
+               <li>Activité n°4</li>
+               <li>Activité n°5</li>
+               <li>Activité n°6</li>
+               <li>Activité n°7</li>
+               <li>Activité n°8</li>
+           </ul>
+        </div>
+   </section>
+   
+   <!--Bloc1-->
+   
+    <div id="full_img">
+       
+   </div>
+   
+    <!--Bloc2-->
 
+    <section id="bloc2-p" class="wrap wrapbloc2">
+       <h4 class="title_act">Activité en question</h4>
+           <div class="wrap wraptextbloc2">
+               <p class="txt_act">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam semper pellentesque 
+convallis. In aliquet magna a aliquam elementum. Nam malesuada pretium arcu non 
+ornare. Donec metus purus, mollis nec imperdiet sed, imperdiet non augue. 
+Sed vestibulum vestibulum ante sit amet euismod. Integer ac viverra leo, sed posuere 
+turpis. Proin dignissim justo eget turpis dictum, non commodo velit ultricies. Suspendisse 
+potenti.
+
+
+Suspendisse in porta ipsum. Duis consectetur eros at mi sagittis sollicitudin. Curabitur non magna mollis, fringilla orci sit amet, semper sapien. Nullam sagittis risus sed commodo rhoncus.
+
+</p>
+           </div>
+           
+           <div class="wrap wrapvideo-act">
+               <iframe id="ytb_video" width="400" height="400" src="https://www.youtube.com/embed/1l4HTnzFuIs" frameborder="0" allowfullscreen></iframe>
+           </div>
+        
+    </section>
+
+
+    <!-- -->
+                
+        <div id="independant-box">
+            <img src="../img/gun-mami.png" id="gun-mami">
+            <p id="commentary"><span class="apostrophe">"</span> Depuis mon activité découverte de la VR avec Silver Act je ne vois plus la vie de la même façon
+            <span id="mami-age">Mami - 69 ans</span> <span class="apostrophe apo-down">"</span></p>
+        </div>        
+    
+        <section id="section">
+    
+            <div id="alone">
+                <img src="../img/alone.png" class="alone1">
+            </div>
+            
+            <div id="first-part">
+                <img src="../img/sourire.png" class="laugth">
+                <img src="../img/sourire.png" class="laugth">
+                <img src="../img/sourire.png" class="laugth1">
+                <img src="../img/sourire.png" class="laugth1">
+            </div>
+           
+        </section>
     
     <!--Footer-->
 
     <footer>
        <div class="wrap">
             <div class="wrap_footer foot-1">
-                <img src="/img/footer/Logo-foot.png"> 
-                    <p class="footer-p p-1">Erat autem diritatis eius hoc quoque indicium nec
-                    obscurum nec latens, quod ludicris cruentis
-                    delectabatur et in circo sex vel septem aliquotiens </p>   
-            </div>
-            
-            <div class="wrap_footer">
-               
                 <p class="footer-t t-pos">Contact</p>    
                     <p class="footer-p p-2">Tel : 01 50 63 97 54</p>
                     <p class="footer-p p-2">64 Rue de République - Paris 75011</p>
                 
                         <div class="social">
 
-                           <img class="soc fb" src="/img/footer/facebook.png">
-                           <img class="soc twi" src="/img/footer/twitter.png">
-                           <img class="soc google" src="/img/footer/google.png">
+                           <img class="soc fb" src="../img/footer/facebook.png">
+                           <img class="soc twi" src="../img/footer/twitter.png">
+                           <img class="soc google" src="../img/footer/google.png">
 
                         </div>
                     
                     <p class="footer-t t-pos ment-pos">Mentions légales</p>
+           </div>
+                
+           <div class="wrap_footer logo-foot-pos">
+              
+               <img id="logo-f" src="../img/footer/Logo-foot.png"> 
+                    <p class="footer-p p-1">Erat autem diritatis eius hoc quoque indicium nec
+                    obscurum nec latens, quod ludicris cruentis
+                    delectabatur et in circo sex vel septem aliquotiens </p>   
             </div>
-            
-            <div class="wrap_footer">
+                        
+             
+            <div class="wrap_footer wrap_foot_3">
                 <p class="footer-t t-pos third-t">Me faire rappeler</p>
                     <p class="footer-p p-3">Laissez votre numéro de téléphone 
                     et nous vous rapellerons dans les 
@@ -83,6 +178,9 @@
         </div>
     </footer>
    
+   <!-- <script src="../js/activite.js"></script> -->
+       <script src="../js/nav_res.js"></script>
+
     
 </body>
 </html>

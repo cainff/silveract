@@ -3,95 +3,194 @@
 <head>
    <meta charset="utf-8">
     <title>Home page - Silver Act</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
     <!--Fonts-->
-    
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600,700" rel="stylesheet">
-    
+    <link rel="shortcut icon" type="image/png" href="../img/nav/logo.png">
+
     <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/homepage.css">
+    <link rel="stylesheet" type="text/css" href="../css/foot-head.css">
     
 
-    <link rel="stylesheet" type="text/css" href="/css/homepage.css">
-    <link  rel="stylesheet" type="text/css" href="/css/reset.css">
+
 </head>
 <body>
-  
+
     <!--Nav bar-->
-   
+
    <nav>
-       <div class="wrap">
+       <div class="wrap w_nav">
+          <img class="phone" src="../img/nav/phone.png">
+          <p class="number">06 19 45 35 56</p>
            <ul class="nav-1">
                <li class="nav-f">Accueil</li>
-               <li class="pad nav-f">Qui sommes nous ?</li>
-               <li class="pad nav-f">Activité</li> 
+               <li class="pad nav-f"><a href="quisommesnous.html">Qui sommes nous ?</a></li>
+               <li class="pad nav-f">Activité</li>
            </ul>
                    <div class="wrap-l">
-             
-                      <img class="logo" src="/img/nav/Logo.png">
-                      
+
+                      <img class="logo" src="../img/nav/Logo.png">
+
                    </div>
-                   
-            <ul class="nav-2">       
-               <li class="pad nav-f">Evenement</li>
+
+            <ul class="nav-2">
+               <li class="pad nav-f">Evenements</li>
                <li class="pad nav-f">Fonctionnement</li>
                <li class="pad nav-f">Contact</li>
            </ul>
+           <div class="nav-r">
+            <div id="nav-icon1">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+                       
+            <ul class="nav_resp">
+                <li>Accueil</li>
+                <li>Qui sommes nous ?</li>
+                <li>Activité</li>
+                <li>Evenements</li>
+                <li>Fonctionnement</li>
+                <li class="li_con">Contact</li>
+            </ul>
+           </div>
+                        
        </div>
    </nav>
    
-   <!--Swiper-->
-    
-    <section id="slider">
-        <div id="text_window">
-        </div>
-    </section>
-   
-    <!--Bloc2-->
-    
-    <section id="bloc2"></section>
-    
-    <!--Bloc3-->
 
-    <section id="bloc3"></section>  
+
+   <!--Swiper-->
+   <div id="presentation-text">
+     <p id="presentation">PRESENTATION</p>
+     <p class="paragraph">Procedente igitur mox tempore cum adventicium
+        nihil inveniretur, relicta ora maritima in Lycaoniam
+        adnexam Isauriae se contulerunt ibique densis
+        intersaepientes itinera praetenturis provincialium
+        et viatorum opibus pascebantur.
+    </p>
+    <p class="paragraph">Ideo urbs venerabilis post superbas efferatarum
+       gentium cervices oppressas latasque leges
+      fundamenta libertatis et retinacula sempiterna
+      velut frugi parens et prudens et dives Caesaribus
+      tamquam liberis suis regenda patrimonii iura
+      permisit.</p>
+   </div>
+
+   <div class="swiper-container">
+       <div class="swiper-wrapper">
+           <div class="swiper-slide"><img src="../img/swipe/slide_1.png" class="item"></div>
+           <div class="swiper-slide"><img src="../img/swipe/slide_2.png" class="item"></div>
+           <div class="swiper-slide"><img src="../img/swipe/slide_3.png" class="item"></div>
+           <div class="swiper-slide"><img src="../img/swipe/slide_4.png" class="item"></div>
+           <div class="swiper-slide"><img src="../img/swipe/slide_5.png" class="item"></div>
+       </div>
+       <!-- Add Pagination -->
+       <div class="swiper-pagination"></div>
+       <!-- Add Arrows -->
+       <div class="swiper-button-next"></div>
+       <div class="swiper-button-prev"></div>
+   </div>
+
+    <!--Bloc2-->
+    <section id="bloc2">
+      <p id="activity">ACTIVITÉ</p>
+      <p class="activity-bulle-orange o1" id="n1">Nom activité n°X</p>
+      <p class="activity-bulle-orange o2" id="n2">Nom activité n°X</p>
+      <p class="activity-bulle-orange o3" id="n3">Nom activité n°X</p>
+      <p class="activity-bulle-orange o4" id="n4">Nom activité n°X</p>
+      <p class="activity-bulle-black b5" id="n5">Nom activité n°X</p>
+      <p class="activity-bulle-black b6" id="n6">Nom activité n°X</p>
+      <p class="activity-bulle-black b7" id="n7">Nom activité n°X</p>
+      <p class="activity-bulle-black b8" id="n8">Nom activité n°X</p>
+      <p class="activity-bulle-black b9" id="n9"><span>Nom activité</span><br>Haec igitur prima lex amicitiae<br>sanciatur, ut ab amicis honesta<br>petamus, amicorum ut ab<br>amicis honesta petamus</p>
+    </section>
+
+ <!--Bloc3-->
+
+    <section id="bloc3">
+        <h2> PHRASE D'ACCROCHE </h2>
+        <p>Procedente igitur mox tempore cum adventicium nihil inveniretur, relicta ora maritima in<br/>
+        Lycaoniam adnexam Isauriae se contulerunt.</p>
+        <div id="email">
+            <form class="contact_footer">
+                <input type="email" class="email-adress" placeholder="EMAIL ADRESS">
+                <input type="submit" class="submit" value="SUBMIT">
+            </form>
+        </div>
+    </section>  
     
     <!--Bloc4-->
 
-    <section id="bloc4"></section> 
+    <section id="bloc4">
+       
+       <div class="wrap w_actu_res">
+        <h2> DERNIERE ACTUALITE </h2>
+        <div class="actu actu2 marg">
+            <img src="../img/bloc4/tele-matin.png" class="hover" />
+            <div class="text">
+                <h2> Titre </h2>
+                <p>Sed si ille hac tam eximia fortuna propter utilitatem rei publicae frui non<br/>properat, ut omnia illa conficiat, quid ego, senator, facere debeo, quem,<br/>etiamsi ille aliud vellet, rei publicae consulere oporteret?<br/><br/>Procedente igitur mox tempore cum adventicium nihil inveniretur,<br/>relicta ora<br/><br/>maritima in Lycaoniam adnexam Isauriae se contulerunt ibique densis<br/>intersaepientes itinera praetenturis provincialium et viatorum opibus<br/>pascebantur.</p>
+                <a href="#"> En savoir plus</a>
+            </div>
+        </div>
+        
+        <div class="actu actu2">
+            <img src="../img/bloc4/actu1.png" class="hover" />
+            <div class="text txt-pos2">
+                <h2> Titre </h2>
+                <p>Sed si ille hac tam eximia fortuna propter utilitatem rei publicae frui non<br/>properat, ut omnia illa conficiat, quid ego, senator, facere debeo, quem,<br/>etiamsi ille aliud vellet, rei publicae consulere oporteret?<br/><br/>Procedente igitur mox tempore cum adventicium nihil inveniretur,<br/>relicta ora<br/><br/>maritima in Lycaoniam adnexam Isauriae se contulerunt ibique densis<br/>intersaepientes itinera praetenturis provincialium et viatorum opibus<br/>pascebantur.</p>
+                <a href="#"> En savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </section> 
+    
     
     <!--Footer-->
 
     <footer>
        <div class="wrap">
             <div class="wrap_footer foot-1">
-                <img src="/img/footer/Logo-foot.png"> 
-                    <p class="footer-p p-1">Erat autem diritatis eius hoc quoque indicium nec
-                    obscurum nec latens, quod ludicris cruentis
-                    delectabatur et in circo sex vel septem aliquotiens </p>   
-            </div>
-            
-            <div class="wrap_footer">
-               
-                <p class="footer-t t-pos">Contact</p>    
+                <p class="footer-t t-pos c-pos">Contact</p>    
                     <p class="footer-p p-2">Tel : 01 50 63 97 54</p>
-                    <p class="footer-p p-2">64 Rue de République - Paris 75011</p>
+                    <p class="footer-p p-2 p_res">64 Rue de République - Paris 75011</p>
                 
                         <div class="social">
 
-                           <img class="soc fb" src="/img/footer/facebook.png">
-                           <img class="soc twi" src="/img/footer/twitter.png">
-                           <img class="soc google" src="/img/footer/google.png">
+                           <img class="soc fb" src="../img/footer/facebook.png">
+                           <img class="soc twi" src="../img/footer/twitter.png">
+                           <img class="soc google" src="../img/footer/google.png">
 
                         </div>
                     
                     <p class="footer-t t-pos ment-pos">Mentions légales</p>
+           </div>
+                
+           <div class="wrap_footer logo-foot-pos">
+              
+               <img id="logo-f" src="../img/footer/Logo-foot.png"> 
+                    <p class="footer-p p-1">Erat autem diritatis eius hoc quoque indicium nec
+                    obscurum nec latens, quod ludicris cruentis
+                    delectabatur et in circo sex vel septem aliquotiens </p>   
             </div>
-            
-            <div class="wrap_footer">
+                        
+             
+            <div class="wrap_footer wrap_foot_3">
                 <p class="footer-t t-pos third-t">Me faire rappeler</p>
                     <p class="footer-p p-3">Laissez votre numéro de téléphone 
                     et nous vous rapellerons dans les 
                     plus bref délais !</p>
                     
-                        <form class="contact_footer">
+                        <form class="contact_footer cf-2">
                             <input type="email" class="mail">
                             <input type="submit" class="sendmail" value="Submit">
                         </form>
@@ -100,6 +199,11 @@
         </div>
     </footer>
    
-    
+
+    <!-- Swiper JS -->
+    <script src="../js/swiper.min.js"></script>
+
+   <script src="../js/nav_res.js"></script>
+
 </body>
 </html>

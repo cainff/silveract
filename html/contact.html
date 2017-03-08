@@ -3,6 +3,12 @@
 <head>
    <meta charset="utf-8">
     <title>Contact - Silver Act</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+     <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
     <!--Fonts-->
     
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600,700" rel="stylesheet">
@@ -10,65 +16,108 @@
     <!--CSS-->
     
 
-    <link rel="stylesheet" type="text/css" href="/css/homepage.css">
-    <link  rel="stylesheet" type="text/css" href="/css/reset.css">
+    <link  rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/foot-head.css">
+    <link rel="stylesheet" type="text/css" href="../css/contact.css">
 </head>
 <body>
   
-    <!--Nav bar-->
-   
+   <!--Nav bar-->
+
    <nav>
        <div class="wrap">
            <ul class="nav-1">
                <li class="nav-f">Accueil</li>
-               <li class="pad nav-f">Qui sommes nous ?</li>
-               <li class="pad nav-f">Activité</li> 
+               <li class="pad nav-f"><a href="quisommesnous.html">Qui sommes nous ?</a></li>
+               <li class="pad nav-f">Activité</li>
            </ul>
                    <div class="wrap-l">
-             
-                      <img class="logo" src="/img/nav/Logo.png">
-                      
+
+                      <img class="logo" src="../img/nav/Logo.png">
+
                    </div>
-                   
-            <ul class="nav-2">       
-               <li class="pad nav-f">Evenement</li>
+
+            <ul class="nav-2">
+               <li class="pad nav-f">Evenements</li>
                <li class="pad nav-f">Fonctionnement</li>
                <li class="pad nav-f">Contact</li>
            </ul>
+           <div class="nav-r">
+            <div id="nav-icon1">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+                       
+            <ul class="nav_resp">
+                <li>Accueil</li>
+                <li>Qui sommes nous ?</li>
+                <li>Activité</li>
+                <li>Evenements</li>
+                <li>Fonctionnement</li>
+                <li class="li_con">Contact</li>
+            </ul>
+           </div>
+                        
        </div>
    </nav>
    
 
-    
+   
+        <div id="contact">
+           <div class="wrap w_contact">
+            <form class="general-contact">
+                <input class="objet" list="series" placeholder="OBJET">
+                    <datalist id="series">
+                        <option value="Choix 1"> 
+                        <option value="Choix 2"> 
+                        <option value="Choix 3">
+                        <option value="Choix 4">
+                    </datalist>
+                <div id="formulaire">
+                    <input class="name" placeholder="VOTRE NOM" type="text"> 
+                    <input class="first-name" placeholder="VOTRE PRENOM" type="text"> 
+                    <input class="email" placeholder="EMAIL" type="text"> 
+                    <input class="phone" placeholder="TELEPHONE" type="text"> 
+                </div>
+                <input class="message" placeholder="VOTRE MESSAGE" type="text">
+            </form>
+        </div>
+    </div>
+        <div id="map"><iframe height="450" frameborder="0" style="border:0"
+    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJAQAAAKxv5kcR8WB7Zz7Qml4&key=AIzaSyDg-ooqye3RPNPtGAkx9YCqVbzcAW1pQUY" allowfullscreen></iframe>
+        </div>
+
     <!--Footer-->
 
     <footer>
        <div class="wrap">
             <div class="wrap_footer foot-1">
-                <img src="/img/footer/Logo-foot.png"> 
-                    <p class="footer-p p-1">Erat autem diritatis eius hoc quoque indicium nec
-                    obscurum nec latens, quod ludicris cruentis
-                    delectabatur et in circo sex vel septem aliquotiens </p>   
-            </div>
-            
-            <div class="wrap_footer">
-               
                 <p class="footer-t t-pos">Contact</p>    
                     <p class="footer-p p-2">Tel : 01 50 63 97 54</p>
                     <p class="footer-p p-2">64 Rue de République - Paris 75011</p>
                 
                         <div class="social">
 
-                           <img class="soc fb" src="/img/footer/facebook.png">
-                           <img class="soc twi" src="/img/footer/twitter.png">
-                           <img class="soc google" src="/img/footer/google.png">
+                           <img class="soc fb" src="../img/footer/facebook.png">
+                           <img class="soc twi" src="../img/footer/twitter.png">
+                           <img class="soc google" src="../img/footer/google.png">
 
                         </div>
                     
                     <p class="footer-t t-pos ment-pos">Mentions légales</p>
+           </div>
+                
+           <div class="wrap_footer logo-foot-pos">
+              
+               <img id="logo-f" src="../img/footer/Logo-foot.png"> 
+                    <p class="footer-p p-1">Erat autem diritatis eius hoc quoque indicium nec
+                    obscurum nec latens, quod ludicris cruentis
+                    delectabatur et in circo sex vel septem aliquotiens </p>   
             </div>
-            
-            <div class="wrap_footer">
+                        
+             
+            <div class="wrap_footer wrap_foot_3">
                 <p class="footer-t t-pos third-t">Me faire rappeler</p>
                     <p class="footer-p p-3">Laissez votre numéro de téléphone 
                     et nous vous rapellerons dans les 
@@ -83,6 +132,9 @@
         </div>
     </footer>
    
+
+    
+   <script src="../js/nav_res.js"></script>
     
 </body>
 </html>

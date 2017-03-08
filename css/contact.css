@@ -1,0 +1,94 @@
+#contact{
+    width: 100%;
+    height: 705px;
+    background: #faecd7;
+}
+#map{
+    width: 100%;
+    height: 380px;
+    background: red;
+}
+
+iframe {
+    width: 100%;
+} 
+
+.general-contact{
+    margin-left: 80px;
+    padding-top: 50px;
+}
+.objet {
+    border: 4px solid white;
+    width: 1080px;
+    height: 75px;
+    background: none;
+    color: white;
+    font-size: 17px;
+    padding-left: 40px;
+}
+::-webkit-input-placeholder {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;    
+}
+#formulaire input{
+    border: 4px solid white;
+    width: 506px;
+    height: 75px;
+    background: none;
+    color: white;
+    font-size: 17px;
+    padding-left: 40px; 
+    display: inline-block;
+    margin-top: 20px;
+}
+.first-name{
+    margin-left: 15px
+}
+.phone{
+    margin-left: 15px
+}
+.message{
+    border: 4px solid white;
+    width: 1080px;
+    height: 290px;
+    background: none;
+    color: white;
+    font-size: 17px;
+    padding-left: 40px;
+    margin-top: 20px;
+}
+
+.w_contact {
+    width: 90%;
+}
+
+@media screen and (max-width: 768px) {
+    .general-contact{
+        margin-left:0px;
+    }
+    
+    .objet {
+        width: 76%;
+        height: 50px;
+    }
+    
+    #formulaire input {
+        width: 76%;
+        height: 45px;
+    }
+    
+    .first-name {
+        margin-left:0px;
+    }
+    
+    .phone {
+        margin-left:0px;
+    }
+    
+    .message {
+        width: 80%;
+        height: 233px;
+    }
+       
+}

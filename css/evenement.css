@@ -1,0 +1,139 @@
+.wrap {
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    overflow: visible;
+}
+
+
+#section{
+    width: 100%;
+    height: 504px;
+    background: url(../img/punaise.png);
+}
+#gradient{
+    width: 100%;
+    opacity: .3;
+    height: 504px;
+    background: -webkit-linear-gradient(380deg, #7ac0bc, #fff); 
+}
+#paragraph{    
+    top: 36%;
+    left: 12%;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    position: absolute;
+    font-family: 'Opens sans', sans-serif;
+}
+
+#bloc2{
+    width: 100%;
+    font-family: 'Opens sans', sans-serif;
+}
+
+.center {
+    margin: 0 auto;
+    width: 31%;
+    height: 19%;
+    margin-top: 5%;
+}
+
+#title{
+    color: #2e2f2f;
+    font-size: 30px;
+    font-weight: bold;
+    /**margin: 5% 0 5% 11%;**/
+}
+.events-day{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.bingo{
+    width: 48%;
+    /* float: right; */
+    height: 248px;
+    position: absolute;
+    margin-left: 40%;
+}
+
+.day{
+    color: #2e2f2f;
+    font-size: 26px;
+    margin-bottom: 4%;
+}
+.hour{
+    margin-left: 24%;
+}
+.comment{
+    color: #454646;
+}
+.reserve{
+    color: #fff;
+    margin-top: 4%;
+    /**margin-left: 10%;**/
+    padding: 12px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #f17f32;
+    -webkit-transition: .7s ease-out;
+    transition: .7s ease-out;
+    background-color: #f17f32;
+    opacity: .8;
+    letter-spacing: 1px;
+}
+
+.reserve:hover{
+    opacity: 1;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+    -webkit-box-shadow: 10px 10px 5px 0px #656565;
+}
+#down{
+    width: 100%;
+    height: 5px;
+    background-color: #6ac1c1;
+}
+
+@media screen and (max-width: 768px) {
+    #paragraph {
+    top: 25%;
+    left: 12%;
+    color: black;
+    font-size: 16px;
+    line-height: 20px;
+    position: absolute;
+    font-family: 'Opens sans', sans-serif;
+    font-weight: bold;
+    }
+    
+    .center {
+        width: 99%;
+    }
+    
+    .day {
+    color: #2e2f2f;
+    font-size: 19px;
+    margin-bottom: 6%;
+    margin-top: 4%;
+    margin-left: 4%;
+    }
+    
+    .comment {
+    color: #454646;
+    width: 100%;
+    text-align: center;
+    }
+    
+    .bingo {
+    width: 80%;
+    /* float: right; */
+    height: 248px;
+    position: relative;
+    margin-left: 10%;
+    }
+
+}

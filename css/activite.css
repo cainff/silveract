@@ -1,0 +1,298 @@
+/**SubNav**/
+
+.subnav {
+    height: 62px;
+    width: 100%;
+    background-color: #faecd8;
+}
+
+
+.wrapsub {
+    width: 85%;
+    height: 25%;
+    padding-top: 24px;
+}
+
+
+.subnav ul li {
+    display: inline;
+    padding-left: 52px;
+    font-family: 'Open sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/**Bloc1**/
+
+#full_img {
+    background: url('/img/activites/bloc1/imgtop.png');
+    background-size:cover ;
+    height: 629px;
+    width: 100%;
+}
+
+/**Bloc2**/ 
+
+
+#bloc2-p {
+    height: 600px;
+}
+
+#ytb-video {
+    position: relative;    
+}
+
+
+.wrapbloc2 {
+    margin-top:40px;
+}
+
+.title_act {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    padding-top: 13px;
+    padding-bottom: 10px;
+}
+
+.wraptextbloc2 {
+    width: 65%;
+    position: relative;
+    float: left;
+    margin: initial;
+    margin-top: 15px;
+}
+
+.txt_act{
+    white-space: pre-wrap;
+    font-family: 'Open Sans',sans-serif;
+    font-size:16px;
+}
+
+.wrapvideo-act {
+    position: relative;
+    float: right;
+    width: 32%;
+    bottom: 33px;
+}
+
+/**Bloc 3**/ 
+
+/* Import Of Fonts*/
+@font-face {
+    font-family:"OpenSans" "gotham-black";
+    src: url("fonts/gotham-black.ttf");
+    src: url("fonts/gotham_black.eot");
+    src: url("fonts/gotham-black.woff");
+    src: url("fonts/OpenSans-Bold.ttf");
+    src: url("fonts/OpenSans-Regular.ttf");
+}
+
+#section{
+    width: 100%;
+    clear: right;
+    height: 1025px;
+    background-color: #faecd8;
+}
+#independant-box{
+    width: 80%;
+    top: 140px;
+    float: right;
+    height: 318px;
+    position: relative;
+    background-color: #6ac1c1;
+    border-top-left-radius: 170px;
+    border-bottom-left-radius: 170px;
+}
+#gun-mami{
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#gun-mami:hover{
+    border: 3px solid orange;
+    border-radius: 100%;
+}
+#commentary{
+    color: #fff;
+    font-size: 26px;
+    padding-top: 8%;
+    padding-left: 35%;
+    font-weight: bold;
+    white-space: pre-wrap;
+    font-family: 'Open sans', sans-serif;
+}
+#mami-age{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: right;
+    padding-left: 60%;
+}
+.apostrophe{
+    font-size: 72px;
+    font-family: 'gotham-black', sans-serif;
+}
+#first-part{
+    width: 58%;
+    height: 796px;
+    margin-left: 7%;
+    padding-top: 130px;
+    /* border: 1px solid red; */
+}
+.laugth,
+.laugth1{
+    width: 398px;
+    height: 398px;
+    float: left;
+    padding-left: 10px;
+}
+.laugth1{
+    margin-top: -20px;
+}
+
+#alone{
+    width: 21%;
+    float: right;
+    height: 735px;
+    margin-top: 171px;
+    margin-right: 87px;
+    /*border: 1px solid red; */
+}
+
+.alone1 {
+    position: relative;
+    float: left;
+    right: 120px;
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+/**Bloc2**/
+    .subnav {
+    height: 85px;
+    }
+    
+    #bloc2-p {
+    height: 320px;
+}
+
+
+    .wraptextbloc2 {
+        width: 100%;
+    }
+    
+    .wrapvideo-act {
+    position: relative;
+    float: right;
+    width: 100%;
+     top: 15%;
+    }
+    
+    #ytb_video {
+    width: 100%;
+    height: 300px;
+
+    }
+    
+    .subnav ul li {
+    display: inline-block;
+    padding-left: 15%;
+    font-family: 'Open sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding-right: 6%;
+    }
+    
+    .wrapsub {
+    padding-top: 3%;
+    }
+    
+/**Commentary**/
+    #independant-box {
+    width: 80%;
+    top: 64px;
+    float: right;
+    height: 134px;
+    position: relative;
+    background-color: #6ac1c1;
+    border-top-left-radius: 170px;
+    border-bottom-left-radius: 170px;
+    }
+    
+    #gun-mami {
+    float: left;
+    margin-top: 8%;
+    margin-left: 7%;
+    width: 25%;
+}
+    #commentary {
+    font-size: 84%;
+    padding-top:7%;
+    }
+    
+    .apostrophe {
+    font-size: 35px;
+    }
+    
+    .apo-down {
+    position: absolute;
+    top: 67%;
+    left: 62%;
+    }
+    
+    #mami-age {
+    font-size: 100%;
+    font-weight: 200;
+    text-align: right;
+    padding-left: 37%;
+    /* position: relative; */
+    /* top: 9%; */
+    }
+    
+    .alone1 {
+    display: none;
+    }
+    
+    .laugth1 {
+    display: none;
+    }
+    
+    .laugth {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    bottom: 167%;
+    padding-left: 24%;
+    }
+    
+    #alone {
+        display:none;
+    }
+    
+    #first-part {
+    width: 58%;
+    height: 100Px;
+    margin-left: 8%;
+    /* padding-top: 218%; */
+    /* border: 1px solid red; */
+    position: relative;
+    top: 18%;
+    }
+    
+    #section {
+        height: 650px;
+        width: 100%;
+    }
+    
+    .wrapsub {
+    width: 91%;
+    height: 25%;
+    padding-top: 4%;
+    }
+}

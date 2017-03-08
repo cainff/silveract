@@ -68,9 +68,9 @@ iframe {
         margin-left:0px;
     }
     
-    .object {
-        height: 45px;
+    .objet {
         width: 76%;
+        height: 50px;
     }
     
     #formulaire input {

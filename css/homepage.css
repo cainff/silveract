@@ -261,6 +261,7 @@ nav {
 .paragraph{
   font-size: 14px;
   padding-top: 10px;
+  white-space: pre-wrap;
 }
 
 
@@ -515,22 +516,317 @@ footer {
 
 /**Class**/
 
+/**Responsive**/
+
+
+@media screen and (max-width: 2560px) {
+     .swiper-container {
+        height: 1396px;
+    }
+    
+    
+    #presentation-text {
+        top: 70%;
+        left: 10%;
+        z-index: 2;
+        opacity: .6;
+        padding: 5px;
+        color: white;
+        text-align: center;
+        position: absolute;
+        border-radius: 30px;
+        background-color: #000;
+        font-family: "OpenSans", sans-serif;
+        width: 20%;
+        height: 300px;
+        /* font-size: 30px; */
+    }
+    
+    #presentation {
+        font-size:35px;
+    }
+    
+    .paragraph {
+    font-size: 19px;
+    padding-top: 10px;
+    white-space: pre-wrap;
+    }
+    
+    #email {
+    margin-left: 24%;
+    }
+}
+
+@media screen and (max-width: 1920px) { 
+
+    #email {
+         margin-left: 16%;
+
+    }
+    
+    #presentation-text {
+        top:35%;
+    }
+    
+}
+
+@media screen and (max-width: 1680px) {
+
+
+    #presentation-text {
+        top:65%
+    }
+    
+    #mail {
+        margin-left: 12%;
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 1230px) {
+    #bloc4 h2 {
+    padding-top: 30px;
+    font-size: 20px;
+    }
+    
+    .actu img {
+    margin-top: 5%;
+    width: 100%;
+    }
+    
+    .email-adress {
+        margin-left: 14%;
+    }
+    
+    .submit {
+         margin-left: 28%;
+    }
+    
+    
+     #presentation-text {
+        top: 60%;
+    }
+    
+    #email {
+        margin-top: -3%;
+    }
+    
+    .submit {
+    margin-left: 1%;
+    margin-top: 2%;
+    position: absolute;
+    } 
+    
+    .email-adress {
+    margin-left: -7%;
+    }
+    
+    .actu {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin-left: 3%;
+    width: 44%;
+    }
+    
+    .actu img {
+    margin-top: 5%;
+    width: 100%;
+    }
+    
+    .text {
+    width: 100%;
+    height: 100%;
+     top: 18px;
+
+    }
+    
+    #bloc4 {
+    height: 535px;
+    }
+    
+    .text p {
+    position: absolute;
+    top: 98px;
+    left: 0%;
+    font-size: 12px;
+    line-height: normal;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    
+    
+    .contact_footer {
+    display: block;
+    margin-left: 15%;
+    margin-top: 1%;
+    }
+    
+    #presentation-text {
+    top: 60%;
+    }
+    
+    #email {
+        margin-top: -4%;
+
+    }
+    
+    .submit {
+    border: none;
+    background-color: #ec7e34;
+    color: white;
+    width: 275px;
+    height: 65px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 25%;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 1%;
+    }
+    
+    .actu {
+        width: 46%;
+    }
+    
+    .text {
+        top:9%;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .text h2 {
+        top:7%;
+    }
+    
+    .text p {
+    top: 31%;
+    left: 0%;
+    }
+    
+    #bloc4{
+    height: 560px;
+    }
+    .wrap-l {
+        width: 21%;
+    }
+        
+    .nav-1 {
+    position: relative;
+    top: 20%;
+    left: -8%;
+    }
+    
+    .nav-2 {
+    position: relative;
+    top: 15%;
+    left: 63%;
+    padding-left: 0%;
+    display: inline;
+    }
+    
+    .w_actu_res {
+    width: 90%;
+    }
+    
+       p-3 {
+    left:40%;
+    }
+    
+    cf-2 {
+    margin-left: 40%;
+    }
+    
+    p-2 {
+    left:34%;
+    }
+    
+    .social {
+        left: 29%;
+    }
+    
+    #logo-f {
+        left:0px;
+    }
+    
+}
 
 @media screen and (max-width: 768px) {
+    /**Bloc 1**/
+    
+    #presentation-text {
+    display: block;
+    opacity: 0.6;
+    background-color: white;
+    border-radius: 0px;
+    width: 100%;
+    height: 25%;
+    margin-top: -13%;
+    margin-left: -11%;
+    }
+    
+    #presentation {
+        color:black;
+    }
+    
+    #email {
+        margin-top:-5%;
+    }
+    
+    
+    .paragraph {
+    font-size: 14px;
+    padding-top: 0px;
+    white-space: initial;
+    margin-top: 2%;
+    color:black;
+    }
     
     /**Bloc 3**/
-    .email-adress{
-    margin-left: -30%;
-    margin-top: -7%;
-    width: 70%;
+    .email-adress {
+    margin-left: 7%;
+    margin-left: 10%;
+    width: 44%;
     height: 45px;
     }
     
     .submit {
-    width: 90%;
-    margin-top: 6%;
-    height: 53px;
-    margin-left: -30%;
+    width: 52%;
+    margin-top: 3%;
+    height: 16%;
+    margin-left: 10%;
+    }    
+    
+    #bloc3 {
+        height: 270px;
+    }
+    
+    #bloc3 h2 {
+    padding-top: 6%;
+    font-size: 20px;
+    text-align: center;
+    }
+    
+    #bloc3 p {
+    padding-top: 3%;
+    font-size: 14px;
+    text-align: center;
+      }
+    
+    #bloc4 {
+        display: none;
+    }
+    
+    footer {
+    height: 125px;
+    margin-top: 10%;
     }
     
     /**Bloc 1**/ 
@@ -544,13 +840,9 @@ footer {
     }
     
     .swiper-container {
-        height: 257px;
+    height: 526px;
     }
     
-    #presentation-text {
-        display: none;
-
-    }
     
     /**Bloc 4**/
     #bloc4 {
@@ -567,6 +859,131 @@ footer {
         width: 100%;
     }
     
+    .contact_footer {
+    display: block;
+    margin-left: 20%;
+    margin-top: 0%;
+    }
+    
+    
        
 }
+
+@media screen and (max-width: 426px) {
+    
+    .email-adress {
+    margin-left: 7%;
+    margin-left: -18%;
+    width: 63%;
+    height: 45px;
+    margin-top: 1%;
+    }
+    
+    .submit {
+    width: 52%;
+    margin-top: 5%;
+    height: 16%;
+    margin-left: -4%;
+    }
+    
+    #presentation-text {
+    margin-top: -32%;
+    width: 99%;
+    }
+    
+    .swiper-slide{
+        margin-right: 0px;
+    }
+    
+    .swiper-container {
+    height: 498px;
+    }
+    
+    #bloc3 {
+    height: 270px;    
+    }
+    
+
+}
+
+@media screen and (max-width: 375px) {
+
+
+
+    #presentation-text {
+        margin-top: -45%;
+    }
+    
+    .email-adress {
+    margin-left: -25%;
+    }
+
+    .submit {
+    width: 60%;
+    margin-left: -13%;
+    }
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+    
+    .swiper-button-next, .swiper-button-prev {
+    top: 34%;
+    right: 13px;
+    }
+    
+    #presentation-text {
+    margin-top: -66%;
+    width: 98%;
+    }
+    
+    .swiper-container {
+    height: 467px;
+    }
+    
+    .email-adress {
+    margin-left: 7%;
+    margin-left: -55%;
+    width: 62%;
+    height: 34px;
+    margin-top: -7%;
+    }
+    
+    #email {
+        margin-left: -13%;
+        margin-top: -11%;
+    }
+    
+    .contact_footer {
+    display: block;
+    margin-left: 130px;
+    margin-top: 5px;
+    }
+    
+    .submit {
+    width: 52%;
+    margin-top: 10%;
+    height: 45px;
+    margin-left: 2%;
+    }
+    
+    #bloc3 {
+    height: 245px;
+    }
+    
+    #bloc3 h2 {
+        padding-top: 14%;
+    }
+    
+}
+
+
+    
+    
+
+
+
+
 
